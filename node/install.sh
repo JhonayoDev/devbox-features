@@ -21,7 +21,7 @@ fi
 sudo apt-get install -y nodejs
 sudo rm -rf /var/lib/apt/lists/*
 
-npm install -g neovim
-pip3 install pynvim --break-system-packages
+sudo npm install -g neovim
+sudo pip3 install pynvim --break-system-packages
 
 echo "[feature/node] instalado: $(node --version)"
